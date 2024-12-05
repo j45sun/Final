@@ -14,6 +14,7 @@
   > 
 <style>
   body { background-color: 160522; }
+  
   ul {
     font-family: Bellota Text;
     color: #767e78;
@@ -22,7 +23,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: transparent;
     position: absolute; 
     left: 120px; 
     top: 20px; 
@@ -30,22 +31,49 @@
 
   li {
     float: left;
+    margin-right: 60px;
   }
 
   li a {
     display: block;
     color: white;
+    opacity: 0.6;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
 
   li a:hover:not(.active) {
-    background-color: #111;
+    color: B825BD;
   }
 
   .active {
-    background-color: #04AA6D;
+    color: B825BD;
+    opacity: 1;
+  }
+  
+  #img1 {
+  position: absolute;
+  left: 35px; 
+  top: 31px; 
+  }
+  
+  #img2 {
+  position: absolute;
+  left: 80px; 
+  top: 273px; 
+  }
+  
+  #img3 {
+  position: absolute;
+  left: 458px; 
+  top: 273px; 
+  }
+  
+  #img4 {
+  position: absolute;
+  left: 326px; 
+  top: 80px; 
   }
 
 </style>
@@ -53,14 +81,24 @@
 </head>
   
 <body>
+  <img id="img1" src="Valorant Logo.png" alt="Image 1">
+  
+  <img id="img2" src="VYSE.png" alt="VYSE Text">
+  
+  <img id="img3" src="Sentinel.png" alt="Sentiel Logo">
+  
+  <img id="img4" src="Vyse Agent.png" alt="Image 1">
+  
   <div style="width: 1240px; height: 2px; background-color: 881291; position: absolute; left: 120px; top: 80px;">
+  </div>
+  <div style="width: 90px; height: 2px; background-color: 881291; position: absolute; left: 120px; top: 78px;">
   </div>
   
   <ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
+  <li><a class="active" href="#home">HOME</a></li>
+  <li><a href="#news">CHARACTER GUIDE</a></li>
+  <li><a href="#contact">WIKI</a></li>
+  <li><a href="#about">ABOUT US</a></li>
 </ul>
 </body>
   
